@@ -7,7 +7,7 @@ from django.views import View
 
 from oauth2_provider.decorators import protected_resource
 
-from .oauth import oauth
+# from .oauth import oauth
 
 
 @require_http_methods(["POST"])
